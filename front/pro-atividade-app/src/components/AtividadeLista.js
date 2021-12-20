@@ -6,6 +6,7 @@ export default function AtividadeLista(props) {
         <div className="mt-3">
 
         {props.atividades.map((ativ) => (
+          
           <Atividade             
             handleConfirmModal={props.handleConfirmModal}
             pegarAtividade={props.pegarAtividade}
