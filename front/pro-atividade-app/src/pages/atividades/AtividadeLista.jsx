@@ -1,5 +1,5 @@
 import React from 'react'
-import Atividade from "./Atividade";
+import AtividadeItem from "./AtividadeItem";
 
 export default function AtividadeLista(props) {
     return (
@@ -7,7 +7,7 @@ export default function AtividadeLista(props) {
 
         {props.atividades.map((ativ) => (
           
-          <Atividade             
+          <AtividadeItem 
             handleConfirmModal={props.handleConfirmModal}
             pegarAtividade={props.pegarAtividade}
             ativ={ativ}

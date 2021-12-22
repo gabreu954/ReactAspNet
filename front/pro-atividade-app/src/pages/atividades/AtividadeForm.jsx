@@ -115,7 +115,7 @@ export default function AtividadeForm(props) {
                 className="btn btn-outline-warning"
                 onClick={handleCancelar}
               >
-                <i className="fas fa-plus me-2"></i>
+                <i className="fas fa-power-off me-2"></i>
                 Cancelar
               </button>
             </>
